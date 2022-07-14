@@ -1,14 +1,21 @@
 import React from 'react';
+import Container from './layout/Container';
+import Sidebar from './layout/Sidebar';
+import Widgets from './layout/Widgets';
 
 function App() {
   return (
-    <div className='flex min-h-screen max-w-7xl mx-auto border'>
+    <Container> 
     
-      <div className='w-72 bg-blue-200'>Slidebar</div>
-      <main className='flex-1 bg-purple-200'>Feed</main>
-      <aside className='bg-green-200 w-80'>Timeline</aside>
+        <Sidebar>
+          <Container>
+             <Widgets>
+              
+             </Widgets>
+          </Container>
+        </Sidebar>
 
-    </div>
+      </Container> 
   );
 }
 
