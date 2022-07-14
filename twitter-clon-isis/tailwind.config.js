@@ -10,10 +10,10 @@ module.exports = {
           dark: 'hsl(203,89%,96%)',
           },
           gray:{
-            dark: 'hsl(203,89%, 96%)',
-            light: 'hsl(203,89%,96%)',
-            extraLight: 'hsl(203,89%, 96%)',
-            Lightest: 'hsl(203,89%, 96%)',
+            dark: '#657786',
+            light: '#AABBC2',
+            extraLight: '#E1EBED',
+            Lightest: '#F5F8Fa',
 
           },
           black: '#14171A',
