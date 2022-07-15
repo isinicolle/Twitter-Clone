@@ -1,5 +1,6 @@
 import React from 'react'
 import { SideLink } from '../components/SideLink';
+import { UserBox } from '../components/UserBox';
 import { BookmarksIcon, EmojiIcon, ExploreIcon, GIFIcon, HomeIcon, ImageIcon, LikeIcon, ListIcon, MessageIcon, MoreIcon, NotificationIcon, POLLIcon, PopulerIcon, ProfileIcon, ReplyIcon, ReTweetIcon, ScheduleIcon, SearchIcon, ShareIcon } from '../icons/icon';
 import TwitterLogo from '../images/twitter.svg';
 
@@ -91,10 +92,7 @@ const Sidebar = () => {
         Tweet
       </button>
       </div>
- 
-      <div>
-     
-      </div>
+      <UserBox/>
         </div>
   )
 }
