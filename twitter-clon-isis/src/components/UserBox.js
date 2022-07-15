@@ -17,7 +17,7 @@ export const UserBox = () => {
         />
             <div className="flex flex-col">
                 <span className="font-bold text-md text-black">Isis Zapata</span>
-                <span className="text-sm text-gray-dark">@isinicolle</span>
+                <span className="text-sm text-gray-dark">@isinicollee</span>
             </div>
         
         <div className='flex space-x-1'>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { SearchIcon } from '../icons/icon'
+import { Timeline } from 'react-twitter-widgets'
 
 const Widgets = () => {
   return (
@@ -14,13 +15,25 @@ const Widgets = () => {
         focus-within:bg-white
         focus-within:ring-1
         focus-within:ring-blue-500
+        focus-within:text-base
         '>
         <SearchIcon className='w-5 h-5' />
         <input type='text' 
         className='placeholder-gray-dark bg-transparent focus:outline-none w-full text-sm' 
         placeholder='Search Twitter' />
       </div>
-      <div>Timeline</div>
+      <div className='mt-5'>
+    
+          <Timeline
+            dataSource={{
+              sourceType: "profile",
+              screenName: "isinicollee",
+            }}
+            options={{
+              height: '400'
+            }}
+          />
+      </div>
     </aside>
   )
 }
