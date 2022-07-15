@@ -4,8 +4,6 @@ import { TweetBox } from '../components/TweetBox';
 import { Divider } from '../components/Divider';
 import { FeedList } from '../components/FeedList';
 import db from '../db';
-import firebase from 'firebase/compat/app';
-
 
 const Content = () => {
     const [tweets, setTweets] = useState([]);

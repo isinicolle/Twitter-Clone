@@ -1,4 +1,5 @@
 import React from 'react'
+import { ReplyIcon } from '../icons/icon'
 
 export const FeedItem = ({
     avatar,
@@ -21,6 +22,17 @@ export const FeedItem = ({
                 {timestamp.toDate().toLocaleTimeString("tr-TR")}
             </span>
         </div>
+        <p className='mt-2 text-gray-900 text-sm'>
+            {content}
+        </p>
+        {image && <img src={image} className="my-2 rounded-xl max-h-96"  />}
+        <ul>
+            <li>
+                <div>
+                    <ReplyIcon/>
+                </div>
+            </li>
+        </ul>
     </article>
   )
 }
