@@ -1,5 +1,5 @@
 import React from 'react'
-import { BookmarksIcon, ExploreIcon, HomeIcon, ListIcon, MessageIcon, MoreIcon, NotificationIcon, ProfileIcon } from '../icons/icon';
+import { BookmarksIcon, EmojiIcon, ExploreIcon, GIFIcon, HomeIcon, ImageIcon, LikeIcon, ListIcon, MessageIcon, MoreIcon, NotificationIcon, POLLIcon, PopulerIcon, ProfileIcon, ReplyIcon, ReTweetIcon, ScheduleIcon, SearchIcon, ShareIcon } from '../icons/icon';
 
 
 const Sidebar = () => {
@@ -13,6 +13,17 @@ const Sidebar = () => {
        <ListIcon/>
        <ProfileIcon/>
        <MoreIcon/>
+       <PopulerIcon/>
+       <ImageIcon/>
+       <GIFIcon/>
+       <POLLIcon/>  
+       <EmojiIcon/>
+       <ScheduleIcon/>
+       <ReplyIcon/>
+       <ReTweetIcon/>
+       <LikeIcon /> 
+       <ShareIcon/>
+       <SearchIcon/>
         </div>
   )
 }
