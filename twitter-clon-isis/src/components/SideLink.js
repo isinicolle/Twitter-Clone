@@ -2,18 +2,21 @@ import React from 'react'
 
 export const SideLink = ({name, Icon}) => {
   return (
-    <li>
-        <a href='#'>  
-          <div className='flex items-center
-           hover:bg-gray-extraLight
-           hover:text-primary-base
+    <li className='group'>
+        <a href='#' className='cursor-pointer block test-xl mb-2'>  
+            <div className='inline-block'>
+            <div className='flex items-center
+           group-hover:bg-gray-extraLight
+           group-hover:text-primary-base
+           rounded-full
+           pl-3
+           pr-8
+           py-3
            '>
-            <span>
                 <Icon />
-            </span>
             <span className='ml-4 font-bold'>
-                {name}
-            </span>
+                {name} </span>
+            </div>
           </div>
         </a>
     </li>
