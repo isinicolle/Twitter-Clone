@@ -13,17 +13,17 @@ const Sidebar = () => {
        <ListIcon/>
        <ProfileIcon/>
        <MoreIcon/>
-       <PopulerIcon/>
-       <ImageIcon/>
-       <GIFIcon/>
-       <POLLIcon/>  
-       <EmojiIcon/>
-       <ScheduleIcon/>
-       <ReplyIcon/>
-       <ReTweetIcon/>
-       <LikeIcon /> 
-       <ShareIcon/>
-       <SearchIcon/>
+       <PopulerIcon className="w-7 h-7"/>
+       <ImageIcon className="w-7 h-7"/>
+       <GIFIcon className="w-7 h-7"/>
+       <POLLIcon className="w-7 h-7"/>  
+       <EmojiIcon className="w-7 h-7"/>
+       <ScheduleIcon className="w-7 h-7"/>
+       <ReplyIcon className="w-7 h-7"/>
+       <ReTweetIcon className="w-7 h-7"/>
+       <LikeIcon className="w-7 h-7" /> 
+       <ShareIcon className="w-7 h-7"/>
+       <SearchIcon className="w-7 h-7"/>
         </div>
   )
 }
