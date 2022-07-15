@@ -21,9 +21,9 @@ const Content = () => {
         alt="Profile"
         className='w-11 h-11 rounded-full'
         />
-        <Divider />
         <TweetBox />
       </div>
+        <Divider />
     </main>
   )
 }
