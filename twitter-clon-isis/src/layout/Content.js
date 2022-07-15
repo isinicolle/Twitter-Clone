@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { PopulerIcon } from '../icons/icon'
 import { TweetBox } from '../components/TweetBox';
 import { Divider } from '../components/Divider';

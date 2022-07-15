@@ -1,7 +1,26 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { EmojiIcon, GIFIcon, ImageIcon, POLLIcon,ScheduleIcon} from '../icons/icon'
+import db from '../db';
+import firebase from 'firebase/compat/app';
 
 export const TweetBox = () => {
+    const [content, setContent] = useState('');
+
+    const sendTweet = () => { 
+        if(content !== '')
+        {
+            db.collection('feed').add({
+                displayName: 'Isis Zapata',
+                username: '@isisnicollee',
+                content,
+                timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+                avatar: "https://avatars.githubusercontent.com/u/92564676?v=4"
+            });
+            setContent('');
+        }
+
+    };
+
     return (
     <div className='flex flex-col flex-1 mt-2 px-2'>
         <textarea
@@ -11,6 +30,8 @@ export const TweetBox = () => {
         outline-none
         overflow-hidden'
         placeholder='¿Que esta pasando?'
+        onChange={(e) => setContent(e.target.value)}
+        value={content}
         />
         <div className='flex items-center justify-between'>
             <div className='flex -ml-3'>
@@ -31,7 +52,7 @@ export const TweetBox = () => {
             </div>
             </div>
         <button
-        className='bg-primary-base text-white font-medium py-2 px-4 rounded-full'>
+        className='bg-primary-base text-white font-medium py-2 px-4 rounded-full' onClick={sendTweet}>
         Tweet
         </button>
         </div>
