@@ -1,6 +1,8 @@
 import React from 'react'
 import { PopulerIcon } from '../icons/icon'
 import { TweetBox } from '../components/TweetBox';
+import { Divider } from '../components/Divider';
+
 
 const Content = () => {
   return (
@@ -19,6 +21,7 @@ const Content = () => {
         alt="Profile"
         className='w-11 h-11 rounded-full'
         />
+        <Divider />
         <TweetBox />
       </div>
     </main>
