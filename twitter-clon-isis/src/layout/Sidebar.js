@@ -46,6 +46,7 @@ const sideLinks = [
 ]
 
 const Sidebar = () => {
+  const [active, setActive] = React.useState('Home');
   return (
     <div className='flex flex-col justify-between w-72 px-2'>
       <div> 
@@ -64,7 +65,8 @@ const Sidebar = () => {
            <nav className='mb-4'>
         <ul>
           {sideLinks.map(({ name, icon }) => (
-          <SideLink key={name} name={name} Icon={icon} />
+          <SideLink key={name} name={name} 
+          Icon={icon} />
           ))}
         </ul>
       </nav>

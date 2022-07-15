@@ -3,7 +3,9 @@ import React from 'react'
 export const SideLink = ({name, Icon}) => {
   return (
     <li className='group'>
-        <a href='#' className='cursor-pointer block test-xl mb-2'>  
+        <a 
+        href={name.toLowerCase()} 
+        className='cursor-pointer block test-xl mb-2'>  
             <div className='inline-block'>
             <div className='flex items-center
            group-hover:bg-gray-extraLight
