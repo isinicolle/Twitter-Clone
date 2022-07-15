@@ -28,8 +28,8 @@ export const FeedItem = ({
         {image && <img src={image} className="my-2 rounded-xl max-h-96"  />}
         <ul>
             <li>
-                <div>
-                    <ReplyIcon/>
+                <div className='flex items-center justify-center w-8 h-8 rounded-full'>
+                    <ReplyIcon className="w-5 h-5" />
                 </div>
             </li>
         </ul>
