@@ -12,7 +12,7 @@ const Widgets = () => {
        rounded-full
         text-gray-dark
         focus-within:bg-white
-        focus-within:ring-l 
+        focus-within:ring-1
         focus-within:ring-blue-500
         '>
         <SearchIcon className='w-5 h-5' />
