@@ -165,14 +165,6 @@ export const SearchIcon = () => {
 }
 
 
-/*
-
-
-
-
-
-*/
-
 
 
 
