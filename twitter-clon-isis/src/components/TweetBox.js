@@ -13,6 +13,7 @@ export const TweetBox = () => {
         placeholder='¿Que esta pasando?'
         />
         <div className='flex items-center justify-between'>
+            <div className='flex -ml-3'>
             <div className='flex items-center justify-center w-11 h-11 rounded-full hover:bg-gray-Lightest'>
                 <ImageIcon className="w-6 h-6 text-primary-light" />
             </div>
@@ -27,6 +28,7 @@ export const TweetBox = () => {
             </div>
             <div className='flex items-center justify-center w-11 h-11 rounded-full hover:bg-gray-Lightest'>
                 <ScheduleIcon className="w-6 h-6  text-primary-light" />
+            </div>
             </div>
         <button
         className='bg-primary-base text-white font-medium py-2 px-4 rounded-full'>
