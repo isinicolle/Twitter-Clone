@@ -23,14 +23,13 @@ const Widgets = () => {
         placeholder='Search Twitter' />
       </div>
       <div className='mt-5'>
-    
           <Timeline
             dataSource={{
               sourceType: "profile",
               screenName: "isinicollee",
             }}
             options={{
-              height: '400'
+              height: '1000'
             }}
           />
       </div>
