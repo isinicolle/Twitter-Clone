@@ -14,6 +14,7 @@ export const TweetBox = () => {
                 username: '@isisnicollee',
                 content,
                 timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+                image: "https://avatars.githubusercontent.com/u/92564676?v=4",
                 avatar: "https://avatars.githubusercontent.com/u/92564676?v=4"
             });
             setContent('');
