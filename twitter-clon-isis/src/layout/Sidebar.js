@@ -47,6 +47,11 @@ const sideLinks = [
 
 const Sidebar = () => {
   const [active, setActive] = React.useState('Home');
+
+  const handleMenuClick =  (name) => {
+    setActive(name);
+  }
+
   return (
     <div className='flex flex-col justify-between w-72 px-2'>
       <div> 
@@ -66,7 +71,10 @@ const Sidebar = () => {
         <ul>
           {sideLinks.map(({ name, icon }) => (
           <SideLink key={name} name={name} 
-          Icon={icon} />
+          Icon={icon} 
+          active={active}
+          onMenuClick={handleMenuClick}
+          />
           ))}
         </ul>
       </nav>
