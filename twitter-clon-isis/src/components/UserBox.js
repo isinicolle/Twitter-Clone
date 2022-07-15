@@ -3,7 +3,7 @@ import React from 'react'
 export const UserBox = () => {
   return (
     <div className='flex justify-between items-center mb-6 
-    hover:bg-primary-light
+    hover:bg-gray-extraLight
     cursor-pointer
     rounded-full
     py-2
