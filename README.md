@@ -4,7 +4,7 @@
 
 <div align="center" >
 
-## Twitter Clone
+## Twitter Clone 1.0 (version 2.0 muy pronto saldra)
 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/800px-React.svg.png" height="250px">
