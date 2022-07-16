@@ -20,7 +20,7 @@ const TweetBox = () => {
         content,
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
         image:
-          "https://avatars.githubusercontent.com/u/92564676?v=4",
+          "https://unacasaenelarbol.com/wp-content/uploads/2020/04/sello-de-madera-gracias-por-venir-diseno-1200x1200.jpg",
         avatar:
           "https://avatars.githubusercontent.com/u/92564676?v=4",
       });
