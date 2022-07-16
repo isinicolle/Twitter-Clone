@@ -27,10 +27,13 @@ export const FeedItem = ({
         </p>
         {image && <img src={image} className="my-2 rounded-xl max-h-96"  />}
         <ul>
-            <li>
-                <div className='flex items-center justify-center w-8 h-8 rounded-full'>
+            <li className='flex items-center space-x-3 text-gray-dark text-sm group'>
+                <div className='flex items-center justify-center w-8 h-8 rounded-full group-hover:bg-primary-light'>
                     <ReplyIcon className="w-5 h-5" />
                 </div>
+                <span className="group-hover:text-primary-base">
+
+                </span>
             </li>
         </ul>
     </article>
