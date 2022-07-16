@@ -1,5 +1,5 @@
 import React from 'react'
-import { ReplyIcon } from '../icons/icon'
+import { ReplyIcon, ReTweetIcon, LikeIcon, ShareIcon } from '../icons/icon'
 
 export const FeedItem = ({
     avatar,
@@ -30,6 +30,30 @@ export const FeedItem = ({
             <li className='flex items-center space-x-3 text-gray-dark text-sm group'>
                 <div className='flex items-center justify-center w-8 h-8 rounded-full group-hover:bg-primary-light'>
                     <ReplyIcon className="w-5 h-5 group-hover:text-primary-base" />
+                </div>
+                <span className="group-hover:text-primary-base">
+                    7
+                </span>
+            </li>
+            <li className='flex items-center space-x-3 text-gray-dark text-sm group'>
+                <div className='flex items-center justify-center w-8 h-8 rounded-full group-hover:bg-primary-light'>
+                    <ReTweetIcon className="w-5 h-5 group-hover:text-primary-base" />
+                </div>
+                <span className="group-hover:text-primary-base">
+                    7
+                </span>
+            </li>
+            <li className='flex items-center space-x-3 text-gray-dark text-sm group'>
+                <div className='flex items-center justify-center w-8 h-8 rounded-full group-hover:bg-primary-light'>
+                    <LikeIcon className="w-5 h-5 group-hover:text-primary-base" />
+                </div>
+                <span className="group-hover:text-primary-base">
+                    7
+                </span>
+            </li>
+            <li className='flex items-center space-x-3 text-gray-dark text-sm group'>
+                <div className='flex items-center justify-center w-8 h-8 rounded-full group-hover:bg-primary-light'>
+                    <ShareIcon className="w-5 h-5 group-hover:text-primary-base" />
                 </div>
                 <span className="group-hover:text-primary-base">
                     7
