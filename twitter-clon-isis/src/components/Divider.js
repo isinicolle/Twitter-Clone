@@ -1,12 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export const Divider = () => {
+const Divider = () => {
   return (
-    <div className='
-    h-3
-     bg-gray-Lightest 
-     border-t 
-     border-b
-      border-gray-extraLight'/>
-  )
-}
+    <div className="h-3 bg-gray-lightest border-t border-b border-gray-extraLight" />
+  );
+};
+
+export default Divider;

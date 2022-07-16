@@ -1,12 +1,14 @@
-import React from 'react'
-import { FeedItem } from './FeedItem'
+import React from "react";
+import FeedItem from "./FeedItem";
 
-export const FeedList = ({tweets}) => {
+const FeedList = ({ tweets }) => {
   return (
     <div>
-        {tweets.map((tweet,index) => (
-            <FeedItem {...tweet} key={index} />
-        ))}
+      {tweets.map((tweet, index) => (
+        <FeedItem {...tweet} key={index} />
+      ))}
     </div>
-  )
-}
+  );
+};
+
+export default FeedList;
