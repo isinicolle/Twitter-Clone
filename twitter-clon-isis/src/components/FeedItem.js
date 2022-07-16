@@ -29,10 +29,10 @@ export const FeedItem = ({
         <ul>
             <li className='flex items-center space-x-3 text-gray-dark text-sm group'>
                 <div className='flex items-center justify-center w-8 h-8 rounded-full group-hover:bg-primary-light'>
-                    <ReplyIcon className="w-5 h-5" />
+                    <ReplyIcon className="w-5 h-5 group-hover:text-primary-base" />
                 </div>
                 <span className="group-hover:text-primary-base">
-
+                    7
                 </span>
             </li>
         </ul>
